@@ -1,3 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 img {
-    width: 100% !important;
+  width: 100% !important;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }

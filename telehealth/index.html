@@ -1,107 +1,597 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<head lang="en">
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<title>Travel HUB Documentation</title>
-	<!-- Framework CSS -->
-	<link rel="stylesheet" href="css/blueprint-css/screen.css" type="text/css" media="screen, projection">
-	<link rel="stylesheet" href="css/blueprint-css/print.css" type="text/css" media="print">
-	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
-	<link rel="stylesheet" href="css/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection">
-	<style type="text/css" media="screen">
-		p, table, hr, .box { margin-bottom:25px; }
-		.box p { margin-bottom:10px; }
-	</style>
-</head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Travel HUB Documentation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&family=Signika+Negative:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Framework CSS -->
+    <link
+      rel="stylesheet"
+      href="css/blueprint-css/screen.css"
+      type="text/css"
+      media="screen, projection"
+    />
+    <link
+      rel="stylesheet"
+      href="css/blueprint-css/print.css"
+      type="text/css"
+      media="print"
+    />
+    <!--[if lt IE 8
+      ]><link
+        rel="stylesheet"
+        href="assets/blueprint-css/ie.css"
+        type="text/css"
+        media="screen, projection"
+    /><![endif]-->
+    <link
+      rel="stylesheet"
+      href="css/blueprint-css/plugins/fancy-type/screen.css"
+      type="text/css"
+      media="screen, projection"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen, projection"
+    />
+    <style type="text/css" media="screen">
+      p,
+      table,
+      hr,
+      .box {
+        margin-bottom: 25px;
+      }
+      .box p {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
 
+  <body>
+    <div class="container">
+      <h3 class="center alt">
+        &ldquo;Tele Health&rdquo; Documentation by &ldquo;AyuuDigital&rdquo;
+        v1.0.0
+      </h3>
 
-<body>
-	<div class="container">
-	
-		<h3 class="center alt">&ldquo;Travel Hub&rdquo; Documentation by &ldquo;GayashanK&rdquo; v1.0</h3>
-		
-		<hr>
-		
-		<h1 class="center">&ldquo;Travel Hub&rdquo;</h1>
-		
-		<div class="borderTop">
-			<div class="span-6 colborder info prepend-1">
-				<p class="prepend-top">
-					<strong>
-					Created: 25/07/2020<br>
-					By: Kasun Gayashan<br>
-					Email: <a href="mailto:kgdharmasiri@gmail.com">kgdharmasiri@gmail.com</a>
-					</strong>
-				</p>
-			</div><!-- end div .span-6 -->		
-	
-			<div class="span-12 last">
-				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to contact us througn our email <a href="mailto:kgdharmasiri@gmail.com">kgdharmasiri@gmail.com</a>. Thanks so much!</p>
-			</div>
-		</div><!-- end div .borderTop -->
-		
-		<hr>
-		
-		<h2 id="toc" class="alt">Table of Contents</h2>
-		<ol class="alpha">
-			<li><a href="#htmlStructure">File Structure</a></li>
-			<li><a href="#cssFiles">Libraries and Add New Libraries</a></li>
-			<li><a href="#credits">Build and Run</a></li>
-		</ol>
-		
-		<hr>
-		
-		<h3 id="htmlStructure"><strong>A) File Structure</strong> - <a href="#toc">top</a></h3>
-		<p>This template developed using Swift 5.2 which is the latest version of the Swift. Also this has used MVC design pattern. You can add your functions easily in to ViewController to get the functions done.</p>
-		
-		<p>File Structure</p>
-		<img src="assets/images/file_structure.png" alt="Folder Structure" />
-		
-		<p></p>
-		<ol>
-			<li>Storyboards - Main views are developed using Storyboards. You can access Storyboards from here</li>
-			<li>UI - All custom and common ui components are included in here</li>
-			<li>Utils - All common functions, extentions, helpers, validations, Structs, Enums are inclued in here</li>
-			<li>ViewConrtollers - All controllers are included in here. Each User Interface has its own ViewConrtoller</li>
-		</ol>
+      <hr />
 
-		<h3 id="javascript"><strong>B) Libraries and Add New Libraries</strong> - <a href="#toc">top</a></h3>
-		
-		<p>This template has used cocoapods as package manager to install libraries. You can use pod file to view the libraries included.</p>
+      <h1 class="center">&ldquo;<b> Tele Health </b> &rdquo;</h1>
 
-		<p>Podfile</p>
-		<img src="assets/images/podfile.png" alt="Podfile" />
-		
-		<p>How to add new libraries</p>
+      <div class="borderTop">
+        <div class="span-6 colborder info prepend-1">
+          <p class="prepend-top">
+            <strong>
+              Created: 27/09/2023<br />
+              By: Kasun Gayashan<br />
+              Email:
+              <a href="mailto:kgdharmasiri@gmail.com">kgdharmasiri@gmail.com</a>
+            </strong>
+          </p>
+        </div>
+        <!-- end div .span-6 -->
 
-		<p>Use the tutorial <a href="https://cocoapods.org/">here</a></p>
-		
-		<hr>
-		
-		<h3 id="psdFiles"><strong>D) Build and Run</strong> - <a href="#toc">top</a></h3>
-		
-		<p>To run the application you need to have developer certificate. You can create one using your apple id. Also form the xCode you can set the Target version and the device type (iPhone, iPad)</p>
-		
-			<ol>
-				<li>How to create developer certificate - Use the tutorial <a href="https://developer.apple.com/support/certificates/">here</a></li>
-				<img src="assets/images/signing_certificate.png" alt="Podfile" />
+        <div class="span-12 last">
+          <p class="prepend-top append-0">
+            Thank you for choosing our application. If you have any questions or
+            require assistance beyond the scope of this help file, please do not
+            hesitate to contact us via email at
+            <a href="mailto:kgdharmasiri@gmail.com">kgdharmasiri@gmail.com</a>.
+            <br />
+            <br />
+            Additionally, we offer a backend application that complements this
+            front-end solution. If you are interested in purchasing the backend
+            application or have any inquiries, please feel free to reach out to
+            us. Once again, thank you for your purchase and your interest in our
+            products.
+          </p>
+        </div>
+      </div>
+      <!-- end div .borderTop -->
 
-				<li>Set ios version and device type</li>
-				<img src="assets/images/development_info.png" alt="Podfile" />
+      <hr />
 
+      <h2 id="toc" class="alt">Table of Contents</h2>
+      <ol class="alpha">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#gettingstarted">Getting Started</a></li>
+        <li><a href="#folterstructure">Folder Structure</a></li>
+        <li><a href="#configurations">Configurations</a></li>
+        <li><a href="#api">API Documentation</a></li>
+        <li>
+          <a href="#authentication">Authentication</a>
+        </li>
+        <li>
+          <a href="#realtimecommunication"
+            >Real-time Communication (Twilio Video)</a
+          >
+        </li>
+        <li><a href="#appendices">Appendices</a></li>
+      </ol>
 
-			</ol>
-		
-		<p>If you'd like to change the main image in the header, open "header.psd", make the necessary adjustments, and then save the file as "headerBG.png". Do the same for the buttons.</p> 
-		
-		<hr>
-		
-		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
-		
-		<p class="append-bottom alt large"><strong>GayashanK</strong></p>
-		<p><a href="#toc">Go To Table of Contents</a></p>
-		
-		<hr class="space">
-	</div><!-- end div .container -->
-</body>
+      <hr />
+
+      <h2>Welcome to the Technical Documentation</h2>
+
+      <section>
+        <h3 id="introduction">
+          <strong>A. Introduction</strong>
+        </h3>
+        <p>
+          Welcome to the technical documentation for
+          <em>TeleHealth Doctor-Patient Video Appointment Application</em>. This
+          application serves both patients and doctors, providing a seamless
+          platform for scheduling medical appointments and conducting video
+          consultations. Built with <strong>React</strong> and
+          <strong>React Bootstrap</strong>, our application leverages modern web
+          technologies to deliver a user-friendly and efficient healthcare
+          experience.
+        </p>
+
+        <h4>Key Features:</h4>
+        <ul>
+          <li>
+            <strong>Browse Doctors:</strong> Patients can easily search for
+            healthcare providers based on various criteria, such as
+            specialization and availability.
+          </li>
+          <li>
+            <strong>Appointment Booking:</strong> Patients can schedule
+            appointments with their chosen doctors, selecting convenient time
+            slots.
+          </li>
+          <li>
+            <strong>Video Consultations:</strong> Our application offers secure
+            video consultations powered by <strong>Twilio</strong>, ensuring
+            that patients and doctors can connect remotely for medical
+            discussions.
+          </li>
+          <li>
+            <strong>Payment Integration:</strong> Seamless and secure payment
+            processing is provided through <strong>Stripe</strong>, allowing for
+            hassle-free transactions for appointment bookings.
+          </li>
+          <li>
+            <strong>User-Friendly UI:</strong> Utilizing
+            <strong>React</strong> and <strong>React Bootstrap</strong>, our
+            user interface is intuitive, responsive, and designed to enhance the
+            user experience.
+          </li>
+        </ul>
+
+        <p>
+          We're excited to have you on board and look forward to enhancing
+          healthcare access and convenience through our
+          <em>Doctor-Patient Video Appointment Application</em>. If you have any
+          questions or need assistance, please don't hesitate to reach out to
+          our support team.
+        </p>
+      </section>
+
+      <section>
+        <h3 id="gettingstarted">
+          <strong>B. Getting Started</strong>
+        </h3>
+
+        <p>
+          Follow these steps to set up and run the Doctor-Patient Video
+          Appointment Application on your local development environment:
+        </p>
+
+        <h4>System Requirements</h4>
+        <p>Ensure that your system meets the following requirements:</p>
+        <ul>
+          <li>Supported Browsers: Google Chrome, Mozilla Firefox, Safari</li>
+          <li>Operating Systems: Windows, macOS, Linux</li>
+        </ul>
+
+        <h4>1. Download Project</h4>
+        <p>
+          To get started, download the application repository from Codecanyon to
+          your local machine.
+        </p>
+
+        <h4>2. Extract Codecanyon Files</h4>
+        <p>
+          Extract the downloaded Codecanyon files into the project directory.
+          You can use a file compression tool like WinRAR or 7-Zip on Windows or
+          the unzip command on Linux/macOS to extract the contents.
+        </p>
+
+        <h4>3. Installation Instructions</h4>
+        <p>
+          Install <strong>Node.js</strong> and <strong>npm</strong> if they are
+          not already installed. You can download them from
+          <a href="https://nodejs.org/">https://nodejs.org/</a>.
+        </p>
+
+        <h4>4. Install npm Packages</h4>
+        <p>
+          Navigate to the project folder and install the required npm packages:
+        </p>
+        <pre><code>cd your-app-directory
+npm install</code></pre>
+
+        <h4>5. Configuration</h4>
+        <p>
+          Create a configuration file for firebase and other third-party
+          services - please follow
+          <a href="#configurations">Setup and Configuration</a>
+        </p>
+
+        <h4>6. Run the Application</h4>
+        <p>Start the development server:</p>
+        <pre><code>npm start</code></pre>
+        You can now access the application in your web browser at
+        <a href="http://localhost:3000">http://localhost:3000</a>.
+
+        <h4>7. Development Workflow</h4>
+        <p>
+          During development, make changes to the code, commit them using Git,
+          and push to the repository.
+        </p>
+        <pre><code>git add .
+git commit -m "Add new feature"
+git push</code></pre>
+      </section>
+
+      <section>
+        <h3 id="folderstructure">
+          <strong>C. Folder Structure</strong>
+        </h3>
+
+        <img
+          src="assets/images/file_structure.png"
+          style="width: 200px !important"
+          alt="Folder Structure"
+        />
+
+        <p>
+          The project's folder structure is organized to maintain a clean and
+          manageable codebase. Below is an overview of the main directories and
+          their purposes:
+        </p>
+
+        <h4>1. <code>src</code></h4>
+        <p>
+          The <code>src</code> directory contains the core application code.
+          It's the heart of your React project.
+        </p>
+
+        <h4>2. <code>services</code></h4>
+        <p>
+          The <code>services</code> directory holds modules responsible for
+          making API calls and handling data fetching. Separating API-related
+          logic into this directory helps maintain a clean separation of
+          concerns.
+        </p>
+
+        <h4>3. <code>components</code></h4>
+        <p>
+          The <code>components</code> directory contains reusable React
+          components that are used throughout the application. Organizing
+          components in this directory promotes code reusability and
+          maintainability.
+        </p>
+
+        <h4>4. <code>pages</code></h4>
+        <p>
+          The <code>pages</code> directory includes main pages or views of the
+          application. Each page typically corresponds to a specific route or
+          URL. This separation makes it easier to manage and navigate the
+          application's structure.
+        </p>
+
+        <h4>5. <code>scss</code></h4>
+        <p>
+          The <code>scss</code> directory contains SCSS (Sass) files for styling
+          the application. Using a preprocessor like SCSS helps maintain clean
+          and modular CSS styles.
+        </p>
+
+        <h4>6. <code>hooks</code></h4>
+        <p>
+          The <code>hooks</code> directory can be used to store custom React
+          hooks. These hooks encapsulate shared logic and state management for
+          components.
+        </p>
+
+        <h4>7. <code>config</code></h4>
+        <p>
+          The <code>config</code> directory may contain configuration files or
+          settings used throughout the application, such as environment
+          variables or constants.
+        </p>
+
+        <h4>Other Files</h4>
+        <p>
+          In the root directory, you will find important project files like
+          <code>package.json</code>, which manages project dependencies, and
+          <code>.gitignore</code>, which specifies files and directories to be
+          ignored by Git version control.
+        </p>
+      </section>
+      <section>
+        <h3 id="configurations">
+          <strong>D. Configurations</strong>
+        </h3>
+
+        <p>
+          To configure Firebase for your Doctor-Patient Video Appointment
+          Application, follow these steps:
+        </p>
+
+        <h4>1. Create a Firebase Project</h4>
+        <p>
+          If you don't already have a Firebase project, go to the
+          <a href="https://console.firebase.google.com/">Firebase Console</a>
+          and create a new project for your application.
+        </p>
+
+        <h4>2. Obtain Firebase Configuration</h4>
+        <p>
+          After creating the project, go to the project settings, and navigate
+          to the "General" tab. Scroll down to the "Your apps" section and click
+          on the Firebase SDK snippet icon.
+        </p>
+        <pre><code>// Your Firebase configuration object will look like this:
+      const firebaseConfig = {
+          apiKey: "YOUR_API_KEY",
+          authDomain: "YOUR_AUTH_DOMAIN",
+          projectId: "YOUR_PROJECT_ID",
+          storageBucket: "YOUR_STORAGE_BUCKET",
+          messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+          appId: "YOUR_APP_ID",
+          measurementId: "YOUR_MEASUREMENT_ID"
+      };
+      </code></pre>
+
+        <h4>3. Replace Firebase Configuration</h4>
+        <p>
+          Replace the Firebase configuration in your application code with the
+          one obtained from your Firebase project settings. You can usually find
+          this code in a file like <code>firebase.js</code> or
+          <code>firebaseConfig.js</code>.
+        </p>
+        <pre><code>// Import Firebase modules
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      import { getAuth } from "firebase/auth";
+      import { getStorage } from "firebase/storage";
+      
+      // Replace with your Firebase configuration
+      const firebaseConfig = {
+          apiKey: "YOUR_API_KEY",
+          authDomain: "YOUR_AUTH_DOMAIN",
+          projectId: "YOUR_PROJECT_ID",
+          storageBucket: "YOUR_STORAGE_BUCKET",
+          messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+          appId: "YOUR_APP_ID",
+          measurementId: "YOUR_MEASUREMENT_ID"
+      };
+      
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      
+      // Initialize Firebase Authentication and get a reference to the service
+      export const auth = getAuth(app);
+      export const storage = getStorage();
+      const analytics = getAnalytics(app);
+      </code></pre>
+
+        <h4>4. Enable Authentication Providers</h4>
+        <p>
+          In your Firebase project settings, navigate to the "Authentication"
+          section. Under the "Sign-in method" tab, enable the authentication
+          providers you want to use, such as Email/Password, Anonymous,
+          Facebook, and Google.
+        </p>
+
+        <h4>5. Firebase Storage</h4>
+        <p>
+          You can use Firebase Storage to store and serve user-generated
+          content. Make sure to configure your Firebase Storage rules to suit
+          your application's security requirements.
+        </p>
+
+        <p>
+          With these steps, you'll have Firebase configured for your
+          Doctor-Patient Video Appointment Application, including the necessary
+          Firebase Authentication providers and Firebase Storage for data
+          storage.
+        </p>
+      </section>
+      <section>
+        <h3 id="apidocumentation">
+          <strong>E. API Documentation</strong>
+        </h3>
+
+        <p>
+          Our API documentation provides detailed information on how to interact
+          with the Doctor-Patient Video Appointment Application's backend. You
+          can access the API documentation through the following link:
+        </p>
+
+        <p>
+          <a href="https://documenter.getpostman.com/view/1403612/2s9YJZ3PeB"
+            >API Documentation</a
+          >
+        </p>
+
+        <h4>Backend Options</h4>
+        <p>
+          You have two options for the backend of your Doctor-Patient Video
+          Appointment Application:
+        </p>
+
+        <h5>1. Develop Your Own Backend</h5>
+        <p>
+          If you prefer to develop your own backend, you have the flexibility to
+          implement the backend logic using technologies and languages of your
+          choice. Our API documentation will guide you on how to interact with
+          the backend to access application features.
+        </p>
+
+        <h5>2. Purchase Our Robust Quality Backend</h5>
+        <p>
+          We offer a robust and high-quality backend developed using Python and
+          Django. Our backend solution is designed to seamlessly integrate with
+          the front-end application, providing a reliable and efficient
+          foundation for your telehealth platform. If you are interested in
+          purchasing our backend solution, please fill out the contact form
+          below, and our team will get in touch with you.
+        </p>
+
+        <!-- Contact Form for Backend Inquiry -->
+        <h4>Contact Us for Backend Inquiry</h4>
+        <form
+          action="mailto:kgdharmasiri@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="text" id="email" name="email" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <section>
+        <h3 id="authentication">
+          <strong>F. Authentication</strong>
+        </h3>
+
+        <p>
+          The Doctor-Patient Video Appointment Application utilizes Firebase
+          Authentication for user authentication. Below, we explain how
+          authentication works in our application.
+        </p>
+
+        <h4>1. User Registration</h4>
+        <p>
+          Users can register for an account using their email and password.
+          Firebase Authentication securely stores user credentials and provides
+          the necessary mechanisms for user management.
+        </p>
+
+        <h4>2. User Login</h4>
+        <p>
+          To access the application, users can log in with their registered
+          email and password. Firebase Authentication verifies user credentials
+          and issues a unique authentication token upon successful login.
+        </p>
+
+        <h4>3. Token-Based Authentication</h4>
+        <p>
+          After a user logs in, the application sends an authentication token to
+          the backend server. This token serves as proof of the user's identity
+          and is used to authorize access to protected resources and perform
+          actions on behalf of the user.
+        </p>
+
+        <h4>4. Secure Communication</h4>
+        <p>
+          The authentication token is used to ensure secure communication
+          between the frontend and the backend. All requests to the backend are
+          validated against this token to prevent unauthorized access.
+        </p>
+
+        <h4>5. Password Reset</h4>
+        <p>
+          Users can initiate a password reset if they forget their login
+          credentials. Firebase Authentication provides a secure password reset
+          process via email.
+        </p>
+
+        <p>
+          By utilizing Firebase Authentication, we ensure a secure and
+          user-friendly authentication process, allowing users to access the
+          Doctor-Patient Video Appointment Application with confidence.
+        </p>
+      </section>
+      <section>
+        <h3 id="realtimecommunication">
+          <strong>G. Real-time Communication (Twilio Video)</strong>
+        </h3>
+
+        <p>
+          The Doctor-Patient Video Appointment Application leverages Twilio
+          Video for real-time video communication between patients and doctors.
+          Below, we outline the process of setting up and using Twilio Video in
+          our application.
+        </p>
+
+        <h4>1. Twilio Account Setup</h4>
+        <p>
+          To use Twilio Video, you'll need to sign up for a Twilio account. If
+          you haven't already, you can create an account on the
+          <a href="https://www.twilio.com/">Twilio website</a>. Once registered,
+          navigate to the Twilio Console to access your API keys and secrets.
+        </p>
+
+        <h4>2. API Keys and Secrets</h4>
+        <p>
+          In the Twilio Console, you can generate API keys and secrets that will
+          be used in your application to interact with Twilio Video services.
+          These credentials are essential for secure communication.
+        </p>
+
+        <h4>3. Access Tokens from Backend</h4>
+        <p>
+          To establish video connections, your application's backend should
+          provide access tokens to users. These tokens grant temporary access to
+          Twilio Video services. The backend generates these tokens by using
+          your Twilio API keys and secrets and sends them to the frontend when a
+          user initiates a video call.
+        </p>
+
+        <h4>4. Frontend Integration</h4>
+        <p>
+          In the frontend of your application, use the Twilio Video SDK for
+          React to create video call interfaces and initiate video sessions. You
+          can find documentation and examples for integrating Twilio Video into
+          your React application on the
+          <a href="https://www.twilio.com/docs/video/sdk"
+            >Twilio Video SDK for React documentation</a
+          >.
+        </p>
+
+        <h4>5. Secure and Reliable Video Calls</h4>
+        <p>
+          Twilio Video offers secure and reliable real-time video communication.
+          It supports features such as participant management, screen sharing,
+          and chat, ensuring a seamless telehealth experience for patients and
+          doctors.
+        </p>
+
+        <h4>6. Additional Resources</h4>
+        <p>
+          For more detailed information on using Twilio Video and its
+          integration with your application's backend, please refer to the
+          <a href="https://www.twilio.com/docs/video"
+            >Twilio Video documentation</a
+          >. You can also find backend-specific documentation on Twilio's
+          website.
+        </p>
+
+        <p>
+          By leveraging Twilio Video, we enable real-time video consultations,
+          enhancing the Doctor-Patient Video Appointment Application's
+          capabilities and ensuring a high-quality telehealth experience.
+        </p>
+      </section>
+    </div>
+    <!-- end div .container -->
+  </body>
 </html>
